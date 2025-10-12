@@ -12,7 +12,7 @@ const publicSans400 = Public_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "LiveKit Console",
+  title: "Portal Console",
   icons: {
     icon: "/logo.svg",
     shortcut: "/logo.svg",
