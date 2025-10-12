@@ -58,7 +58,7 @@ export default function Page() {
             Portal Realtime Observatory
           </h1>
           <p className="text-muted-foreground text-lg">
-            Real-time monitoring and inspection tool for LiveKit rooms
+            Real-time monitoring and inspection tool for Portal rooms
           </p>
         </div>
 
