@@ -1,4 +1,3 @@
-@@ -1,50 +0,0 @@
 "use client";
 
 import { useTheme } from "next-themes";
@@ -18,3 +17,4 @@ export default function LK() {
     </Link>
   );
 }
+
