@@ -35,7 +35,7 @@ export const CredentialSettings = () => {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>LiveKit Credentials</DialogTitle>
+          <DialogTitle>Credentials</DialogTitle>
         </DialogHeader>
 
         <div className="rounded-lg border border-blue-500/30 px-4 py-3 bg-blue-50/20">
@@ -48,11 +48,11 @@ export const CredentialSettings = () => {
 
         <div className="space-y-4">
           <div className="space-y-2">
-            <Label>LiveKit URL</Label>
+            <Label>URL</Label>
             <Input
               value={localCredentials.LIVEKIT_URL || ""}
               onChange={(e) => setLocalCredentials((c) => ({ ...c, LIVEKIT_URL: e.target.value }))}
-              placeholder="wss://your-domain.livekit.cloud"
+              placeholder="wss://your-domain.cloud"
             />
           </div>
 
