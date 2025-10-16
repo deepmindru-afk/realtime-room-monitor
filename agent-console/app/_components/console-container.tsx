@@ -138,9 +138,9 @@ export const ConsoleContainer: React.FC<React.HTMLAttributes<HTMLDivElement>> = 
                 {/* Header */}
                 <div className="flex justify-between items-center">
                   <div className="space-y-2 pr-3">
-                    <h2 className="text-lg font-bold">LiveKit in Real Time</h2>
+                    <h2 className="text-lg font-bold">Real Time</h2>
                     <p className="text-sm text-muted-foreground">
-                      Maximize the observability of your Livekit room.
+                      Maximize the observability of your room.
                     </p>
                   </div>
                   {/* Connection Button */}
@@ -193,7 +193,7 @@ export const ConsoleContainer: React.FC<React.HTMLAttributes<HTMLDivElement>> = 
                         className="flex items-center justify-center border bg-muted rounded-md p-4 mt-4 min-h-[68px]"
                       >
                         <p className="text-sm text-muted-foreground">
-                          No connection to LiveKit server
+                          No connection to server
                         </p>
                       </motion.div>
                     )}
